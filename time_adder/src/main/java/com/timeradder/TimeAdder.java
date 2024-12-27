@@ -17,8 +17,8 @@ public class TimeAdder {
             newHour++;
         }
 
-        if (newHour >= 24) {
-            newHour -= 24;
+        if (newHour >= 12) {
+            newHour -= 12;
         }
 
         int time = newHour * 10000 + newMinute * 100 + newSecond;
